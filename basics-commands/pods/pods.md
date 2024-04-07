@@ -1,8 +1,6 @@
 # Pods
 
-# Description:
-
-Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
+- Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
 
 # tags: [kubernetes, pods]
 
@@ -138,3 +136,8 @@ spec:
   ```bash
   kubectl annotate pod my-pod new-annotation-
   ```
+
+# Related
+
+- [ReplicaSet](replicaset.md)
+- [Deployment](deployments.md)

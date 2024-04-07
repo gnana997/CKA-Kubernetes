@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: my-replica-set # Name of the replica set
+  namespace: default # Namespace of the replica set
+  labels:
+    app: my-app # Label of the replica set
+spec:
+  replicas: 3 # Number of replicas
+  desiredReplicas: 3 # Desired number of replicas
+  selector:
+    matchLabels:
+      app: my-app # Label of the replica set
+  template:
+    metadata:
+      labels:
+        app: my-app # Label of the pod
+    spec:
+      volumes:
+        - name: my-volume # Name of the volume
+          #emptyDir: {} # EmptyDir volume of the pod
+          mountPath: /usr/share/nginx/html # Mount path of the host volume
+      containers:
+        - name: my-container # Name of the container
+          image: nginx:latest # Image of the container
+          labels:
+            app: my-app # Label of the container
+          ports:
+            - containerPort: 80 # Port of the container
+          tolerations:
+            - key: "key" # Key of the toleration
+              operator: "Equal" # Operator of the toleration
+              value: "value" # Value of the toleration
+              effect: "NoSchedule" # Effect of the toleration
+          resources:
+            requests:
+              memory: "64Mi" # Memory request of the container
+              cpu: "250m" # CPU request of the container
+            limits:
+              memory: "128Mi" # Memory limit of the container
+              cpu: "500m" # CPU limit of the container
+          volumeMounts:
+            - name: my-volume # Name of the volume
+              mountPath: /usr/share/nginx/html # Mount path of the volume
+          affinity:
+            nodeAffinity:
+              requiredDuringSchedulingIgnoredDuringExecution:
+                nodeSelectorTerms:
+                  - matchExpressions:
+                      - key: kubernetes.io/hostname
+                        operator: In
+                        values:
+                          - minikube
+          envFrom:
+            - configMapRef:
+                name: my-config-map # ConfigMap reference of the container
