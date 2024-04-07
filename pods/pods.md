@@ -137,11 +137,11 @@ spec:
 
 # Related
 
-- [Namespace](/basics-commands/namespace/namespace.md)
-- [ReplicaSet](/basics-commands/replicasets/replicaset.md)
-- [Deployments](/basics-commands/deployments/deployments.md)
-- [Service](/basics-commands/service/service.md)
-- [ConfigMap](/basics-commands/configmap/configmap.md)
-- [Secret](/basics-commands/secrets/secret.md)
+- [Namespace](/namespace/namespace.md)
+- [ReplicaSet](/replicasets/replicaset.md)
+- [Deployments](/deployments/deployments.md)
+- [Service](/service/service.md)
+- [ConfigMap](/configmap/configmap.md)
+- [Secret](/secrets/secret.md)
 
 # Tags: [kubernetes, pods]

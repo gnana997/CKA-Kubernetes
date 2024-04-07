@@ -68,11 +68,11 @@ data:
 
 # Related
 
-- [Secrets](/basics-commands/secrets/secret.md)
-- [Pods](/basics-commands/pods/pods.md)
-- [Services](/basics-commands/services/service.md)
-- [deployments](/basics-commands/deployments/deployments.md)
-- [replicaset](/basics-commands/replicasets/replicaset.md)
-- [namespace](/basics-commands/namespace/namespace.md)
+- [Secrets](/secrets/secret.md)
+- [Pods](/pods/pods.md)
+- [Services](/service/service.md)
+- [deployments](/deployments/deployments.md)
+- [replicaset](/replicasets/replicaset.md)
+- [namespace](/namespace/namespace.md)
 
 # Tags: [kubernetes, configmap, cm]

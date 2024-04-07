@@ -56,11 +56,11 @@ metadata:
 
 # Related
 
-- [Pods](/basics-commands/pods/pods.md)
-- [Services](/basics-commands/services/service.md)
-- [Deployments](/basics-commands/deployments/deployments.md)
-- [ReplicaSets](/basics-commands/replicasets/replicaset.md)
-- [ConfigMaps](/basics-commands/configmap/configmap.md)
-- [Secrets](/basics-commands/secrets/secret.md)
+- [Pods](/pods/pods.md)
+- [Services](/service/service.md)
+- [Deployments](/deployments/deployments.md)
+- [ReplicaSets](/replicasets/replicaset.md)
+- [ConfigMaps](/configmap/configmap.md)
+- [Secrets](/secret/secret.md)
 
 # Tags: [Kubernetes, namespace, ns]

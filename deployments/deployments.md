@@ -155,9 +155,11 @@ spec:
 
 # Related
 
-- [Pods](/basics-commands/pods/pods.md)
-- [ReplicaSet](/basics-commands/replicasets/replicaset.md)
-- [Namespaces](/basics-commands/namespaces/namespaces.md)
-- [Services](/basics-commands/services/services.md)
+- [Pods](/pods/pods.md)
+- [ReplicaSet](/replicasets/replicaset.md)
+- [Namespaces](/namespace/namespace.md)
+- [Services](/service/service.md)
+- [Secrets](/secrets/secret.md)
+- [ConfigMaps](/configmap/configmap.md)
 
 # Tags: [kubernetes, deployment, deploy]

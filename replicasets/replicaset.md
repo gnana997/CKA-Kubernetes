@@ -91,11 +91,11 @@ spec:
 
 # Related
 
-- [Pods](/basics-commands/pods/pods.md)
-- [Deployments](/basics-commands/deployments/deployments.md)
-- [Services](/basics-commands/service/service.md)
-- [Namespaces](/basics-commands/namespace/namespace.md)
-- [ConfigMap](/basics-commands/configmap/configmap.md)
-- [Secrets](/basics-commands/secrets/secret.md)
+- [Pods](/pods/pods.md)
+- [Deployments](/deployments/deployments.md)
+- [Services](/service/service.md)
+- [Namespaces](/namespace/namespace.md)
+- [ConfigMap](/configmap/configmap.md)
+- [Secrets](/secrets/secret.md)
 
 # Tags: [kubernetes, replicaset, rs]
