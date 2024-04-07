@@ -155,5 +155,5 @@ spec:
 
 # Related
 
-- [Pods](/pods/pods.md)
-- [ReplicaSet](/replicaset/replicaset.md)
+- [Pods](/basics-commands/pods/pods.md)
+- [ReplicaSet](/basics-commands/replicasets/replicaset.md)
