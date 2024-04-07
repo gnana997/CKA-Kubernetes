@@ -139,5 +139,7 @@ spec:
 
 # Related
 
+- [namespace](/basics-commands/namespaces/namespaces.md)
 - [ReplicaSet](/basics-commands/replicasets/replicaset.md)
 - [Deployments](/basics-commands/deployments/deployments.md)
+- [Service](/basics-commands/services/services.md)

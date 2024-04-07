@@ -95,3 +95,5 @@ spec:
 
 - [Pods](/basics-commands/pods/pods.md)
 - [Deployments](/basics-commands/deployments/deployments.md)
+- [Services](/basics-commands/services/services.md)
+- [Namespaces](/basics-commands/namespaces/namespaces.md)

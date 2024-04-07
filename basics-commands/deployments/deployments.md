@@ -157,3 +157,5 @@ spec:
 
 - [Pods](/basics-commands/pods/pods.md)
 - [ReplicaSet](/basics-commands/replicasets/replicaset.md)
+- [Namespaces](/basics-commands/namespaces/namespaces.md)
+- [Services](/basics-commands/services/services.md)

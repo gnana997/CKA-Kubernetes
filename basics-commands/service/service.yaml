@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service # Name of the service
+  namespace: default # Namespace of the service
+  labels:
+    app: my-app # Label of the service
+spec:
+  type: NodePort # Type of the service
+  selector:
+    app: my-app # Label of the service
+  ports:
+    - protocol: TCP # Protocol of the service
+      port: 80 # Port of the service
+      targetPort: 80 # Target port of the service
+      nodePort: 30080 # Node port of the service
