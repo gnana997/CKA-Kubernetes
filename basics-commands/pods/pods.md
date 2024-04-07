@@ -139,5 +139,5 @@ spec:
 
 # Related
 
-- [ReplicaSet](replicaset.md)
-- [Deployment](deployments.md)
+- [ReplicaSet](/replicaset/replicaset.md)
+- [Deployments](/deployments/deployments.md)

@@ -2,6 +2,12 @@
 
 - Deployments are a higher-level concept that manages ReplicaSets and Pods.
 
+# Notes:
+
+- A Deployment is a higher-level concept that manages ReplicaSets and provides declarative updates to Pods along with a lot of other useful features.
+- A Deployment ensures that a specified number of Pod replicas are running at any given time.
+- A Deployment allows you to describe an application's life cycle, such as which images to use for the app, the number of Pods, and how to update them.
+
 # Basic Deployment definition
 
 ```yaml
@@ -149,5 +155,5 @@ spec:
 
 # Related
 
-- [Pods](/pods.md)
-- [Deployments](/deployments.md)
+- [Pods](/pods/pods.md)
+- [ReplicaSet](/replicaset/replicaset.md)

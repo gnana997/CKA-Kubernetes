@@ -93,5 +93,5 @@ spec:
 
 # Related
 
-- [Pods](/pods.md)
-- [Deployments](/deployments.md)
+- [Pods](/pods/pods.md)
+- [Deployments](/deployments/deployments.md)
