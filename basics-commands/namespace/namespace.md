@@ -56,7 +56,7 @@ metadata:
 
 # Related
 
-- [Pods](basics-commands/pods/pods.md)
-- [Services](basics-commands/services/service.md)
-- [Deployments](basics-commands/deployments/deployments.md)
-- [ReplicaSets](basics-commands/replicasets/replicasets.md)
+- [Pods](/basics-commands/pods/pods.md)
+- [Services](/basics-commands/services/service.md)
+- [Deployments](/basics-commands/deployments/deployments.md)
+- [ReplicaSets](/basics-commands/replicasets/replicasets.md)
