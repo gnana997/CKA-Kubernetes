@@ -59,4 +59,8 @@ metadata:
 - [Pods](/basics-commands/pods/pods.md)
 - [Services](/basics-commands/services/service.md)
 - [Deployments](/basics-commands/deployments/deployments.md)
-- [ReplicaSets](/basics-commands/replicasets/replicasets.md)
+- [ReplicaSets](/basics-commands/replicasets/replicaset.md)
+- [ConfigMaps](/basics-commands/configmap/configmap.md)
+- [Secrets](/basics-commands/secrets/secret.md)
+
+# Tags: [Kubernetes, namespace, ns]

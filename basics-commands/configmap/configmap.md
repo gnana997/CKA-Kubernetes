@@ -74,3 +74,5 @@ data:
 - [deployments](/basics-commands/deployments/deployments.md)
 - [replicaset](/basics-commands/replicasets/replicaset.md)
 - [namespace](/basics-commands/namespace/namespace.md)
+
+# Tags: [kubernetes, configmap, cm]

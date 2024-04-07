@@ -2,8 +2,6 @@
 
 - Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
 
-# tags: [kubernetes, pods]
-
 # Notes
 
 - A Pod is a group of one or more containers, with shared storage/network resources, and a specification for how to run the containers.
@@ -139,7 +137,11 @@ spec:
 
 # Related
 
-- [namespace](/basics-commands/namespaces/namespaces.md)
+- [Namespace](/basics-commands/namespace/namespace.md)
 - [ReplicaSet](/basics-commands/replicasets/replicaset.md)
 - [Deployments](/basics-commands/deployments/deployments.md)
-- [Service](/basics-commands/services/services.md)
+- [Service](/basics-commands/service/service.md)
+- [ConfigMap](/basics-commands/configmap/configmap.md)
+- [Secret](/basics-commands/secrets/secret.md)
+
+# Tags: [kubernetes, pods]

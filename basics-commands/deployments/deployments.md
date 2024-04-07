@@ -159,3 +159,5 @@ spec:
 - [ReplicaSet](/basics-commands/replicasets/replicaset.md)
 - [Namespaces](/basics-commands/namespaces/namespaces.md)
 - [Services](/basics-commands/services/services.md)
+
+# Tags: [kubernetes, deployment, deploy]

@@ -72,6 +72,8 @@ data:
 - [ConfigMap](/basics-commands/configmap/configmap.md)
 - [Pods](/basics-commands/pods/pods.md)
 - [Deployments](/basics-commands/deployments/deployments.md)
-- [Services](/basics-commands/services/services.md)
-- [Namespaces](/basics-commands/namespaces/namespaces.md)
-- [ReplicaSets](/basics-commands/replicasets/replicasets.md)
+- [Services](/basics-commands/service/service.md)
+- [Namespaces](/basics-commands/namespace/namespace.md)
+- [ReplicaSets](/basics-commands/replicasets/replicaset.md)
+
+# Tags: [kubernetes, secret]

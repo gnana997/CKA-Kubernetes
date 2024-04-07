@@ -82,5 +82,7 @@
   - [Deployments](/basics-commands/deployments/deployments.md)
   - [ReplicaSets](/basics-commands/replicasets/replicasets.md)
   - [Namespaces](/basics-commands/namespaces/namespaces.md)
+  - [ConfigMap](/basics-commands/configmap/configmap.md)
+  - [Secrets](/basics-commands/secrets/secret.md)
 
-  # tags: [kubernetes, service]
+  # Tags: [kubernetes, service]

@@ -2,8 +2,6 @@
 
 - A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time.
 
-# tags: [kubernetes, replicaset]
-
 # Notes
 
 - A ReplicaSet is defined with fields, including the replicas field that specifies the number of Pods that the ReplicaSet should maintain.
@@ -95,5 +93,9 @@ spec:
 
 - [Pods](/basics-commands/pods/pods.md)
 - [Deployments](/basics-commands/deployments/deployments.md)
-- [Services](/basics-commands/services/services.md)
-- [Namespaces](/basics-commands/namespaces/namespaces.md)
+- [Services](/basics-commands/service/service.md)
+- [Namespaces](/basics-commands/namespace/namespace.md)
+- [ConfigMap](/basics-commands/configmap/configmap.md)
+- [Secrets](/basics-commands/secrets/secret.md)
+
+# Tags: [kubernetes, replicaset, rs]
